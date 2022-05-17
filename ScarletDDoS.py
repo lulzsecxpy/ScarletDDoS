@@ -3,9 +3,9 @@ import requests
 import threading
 import random
 
-########################################
-#       Educational purpose only       #
-########################################
+print("Join Discord: https://discord.gg/guckproject")
+print("Author: Scarlet X LulzSecX666")
+print("Thanks To: Scarlet, Galvin, Tron, Regenxys")
 
 if os.name == 'nt':
     os.system("cls")
