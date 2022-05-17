@@ -4,9 +4,7 @@ import threading
 import random
 
 #######################################################
-Join Discord: https://discord.gg/guckproject
-Author: Scarlet X LulzSec
-Note: Dont Abuse!! This script is monitored by LulzSec
+#################DontAbuse#############################
 #######################################################
 
 if os.name == 'nt':
